@@ -39,23 +39,23 @@ Checks performed along the development:
 * Open Command Prompt and ensure git and python are installed
 
 * Change the directory to a preferable path where to download the repository from GitHub
-i.e.: cd C:\Users\Bii\Documents\B- Test - Repository
+i.e.: **cd C:\Users\Bii\Documents\B- Test - Repository**
 
 * Clone the repository by using the following command:
-git clone https://github.com/biancaantal/Outliers-of-timeseries-data.git
+**git clone https://github.com/biancaantal/Outliers-of-timeseries-data.git**
 
 * Change the directory to the cloned repository:
-cd Outliers-of-timeseries-data
+**cd Outliers-of-timeseries-data**
 
 * Create a virtual environment to manage dependencies and activate it:
-python -m venv venv
-venv\Scripts\activate
+**python -m venv venv**
+**venv\Scripts\activate**
 
 * Manually install the libraries if they are not already installed (a "requirements.txt" document can be added in GitHub as future improvement)
-pip install pandas
+**pip install pandas**
 
 * Run the main script by specifying the 2 parameters: the location of the unzipped file and the recommended number of files to be sampled for each Stock Exchange:
-python main.py "C:/Users/Bii/Documents/LSEG Technical Exercise/(TC1)(TC2) stock_price_data_files" 2
+**python main.py "C:/Users/Bii/Documents/LSEG Technical Exercise/(TC1)(TC2) stock_price_data_files" 2**
 
 ## Possible improvements
 * add a "requirements.txt" document in GitHub to install the libraries
