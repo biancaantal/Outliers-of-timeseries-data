@@ -47,8 +47,10 @@ i.e.: **cd C:\Users\Bii\Documents\B- Test - Repository**
 * Change the directory to the cloned repository:
 **cd Outliers-of-timeseries-data**
 
-* Create a virtual environment to manage dependencies and activate it:
+* Create a virtual environment to manage dependencies:
 **python -m venv venv**
+
+* Activate the virtual environment:
 **venv\Scripts\activate**
 
 * Manually install the libraries if they are not already installed (a "requirements.txt" document can be added in GitHub as future improvement)
