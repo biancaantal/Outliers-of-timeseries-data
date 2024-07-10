@@ -30,8 +30,8 @@ Checks performed along the development:
 * check all calculations and the correct identification of outliers
 
 ## Prerequistes
-Python
-Git
+* Python
+* Git
 
 ## Set up and run the application
 * Place the file "(TC1)(TC2) stock_price_data_files.zip" into a preferable folder and unzip it.
